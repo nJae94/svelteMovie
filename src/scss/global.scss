@@ -1,4 +1,3 @@
-
 $color--black: #0e111b;
 $color--black-90: rgba($color--black, 0.9);
 $color--black-50: rgba($color--black, 0.5);
@@ -13,10 +12,13 @@ $color--white-5: rgba($color--white, 0.05);
 $color--primary: #fdc000;
 $color--area: #1c212e;
 
-
-
 body {
 	margin: 0 auto;
 	padding: 0 0;
 	position: relative;
+
+	ul {
+		list-style-type: none;
+		margin: 0 auto;
+	}
 }

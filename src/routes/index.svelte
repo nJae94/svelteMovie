@@ -5,7 +5,6 @@
 <style lang="scss">
   p {
     display: flex;
-    user-select: none;
     color: blue;
   }
 </style>

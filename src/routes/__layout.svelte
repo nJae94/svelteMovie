@@ -14,6 +14,6 @@
 
 	.layout {
 		width: 100%;
-		background-color: #00020E;
+		background-color: grey;
 	}
 </style>

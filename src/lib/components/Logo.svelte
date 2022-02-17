@@ -1,6 +1,3 @@
-<script lang='ts'>
-  import { goto } from '$app/navigation';
-</script>
 
 <a href="/">
   <span>OMDbAPI</span>.COM
