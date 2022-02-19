@@ -1,10 +1,16 @@
+<script lang="ts">
+  import Headline from '$lib/components/Headline/index.svelte';
+</script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="wrapper">
+  <Headline />
+</div>
+
 
 <style lang="scss">
-  p {
-    display: flex;
-    color: blue;
-  }
+ .wrapper {
+   width: 100%;
+   height: 100%;
+   padding: 1rem;
+ }
 </style>
