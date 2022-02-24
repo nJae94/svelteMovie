@@ -6,7 +6,7 @@
 
 <div class="layout">
 	<Header />
-	<slot />
+		<slot ></slot>
 	<Footer />
 </div>
 
@@ -16,6 +16,7 @@
 
 	.layout {
 		width: 100%;
-		background-color: grey;
+		height: 100%;
+		background-color: $color--black;
 	}
 </style>

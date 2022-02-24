@@ -16,9 +16,14 @@ body {
 	margin: 0 auto;
 	padding: 0 0;
 	position: relative;
+	height: 100%;
+	overflow: none;
 
 	ul {
 		list-style-type: none;
 		margin: 0 auto;
 	}
 }
+
+$tablet: 'all and (max-width: 1200px)';
+$mobile: 'all and (max-width: 720px)';
