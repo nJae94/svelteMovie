@@ -32,6 +32,7 @@
 </script>
 
 <div class="search">
+  
   <div class="text-field">
     <input bind:value={title} 
     placeholder="Search For Movies" 
@@ -71,13 +72,13 @@
 
 <style lang="scss">
   .search {
-    display: grid;
-    grid-template-columns: 1fr repeat(5, 120px);
-    grid-gap: 10px;
+
+    height: 80px;
 
     .text-field {
-
-      display: inline-block;
+      display: grid;
+      grid-template-columns: 1fr repeat(5, 120px);
+      grid-gap: 10px;
       height: 50px;
 
       input {

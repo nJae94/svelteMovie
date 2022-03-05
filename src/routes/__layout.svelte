@@ -6,7 +6,9 @@
 
 <div class="layout">
 	<Header />
-		<slot ></slot>
+	<div class='main'>
+		<slot />
+	</div>
 	<Footer />
 </div>
 
@@ -18,5 +20,12 @@
 		width: 100%;
 		height: 100%;
 		background-color: $color--black;
+
+	}
+
+	.main {
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
 	}
 </style>

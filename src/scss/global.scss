@@ -16,8 +16,8 @@ body {
 	margin: 0 auto;
 	padding: 0 0;
 	position: relative;
-	height: 100%;
-	overflow: none;
+	min-height: 100%;
+	box-sizing: border-box;
 
 	ul {
 		list-style-type: none;
